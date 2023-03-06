@@ -1,0 +1,28 @@
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        """
+        if len(s) != len(t):
+            return False
+
+        countS = [0]*26
+        countT = [0]*26
+
+        for char in s:
+            
+            countS[ord(char)-97] += 1
+
+        for char in t:
+            
+            countT[ord(char)-97] += 1
+        
+        
+        if countT == countS:
+            print(True)
+
+        else:
+            print(False)
+
+t = Solution()
+t.isAnagram("zlap", "kxqx")
+

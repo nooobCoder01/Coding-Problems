@@ -8,3 +8,4 @@ In the future, if needed will make this repo public too but at the moment I shal
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |242|[Valid Anangram](https://leetcode.com/problems/valid-anagram/)|[Python](./problems/ValidAnagram)|Easy|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](./problems/TwoSum)|Easy|
